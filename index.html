@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Track cryptocurrency prices in real-time.">
+  <title>Crypto Price Tracker</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Crypto...</h1>
+    <div class="search-bar">
+      <input type="text" id="search" placeholder="Search for a cryptocurrency...">
+    </div>
+    <button id="theme-toggle">🌙</button>
+  </header>  
+
+  <table id="crypto-table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Coin</th>
+        <th>Symbol</th>
+        <th>Price</th>
+        <th>24h Change</th>
+      </tr>
+    </thead>
+    <tbody id="crypto-data">
+      <!-- Dynamic Data Goes Here -->
+    </tbody>
+  </table>
+
+  <script src="./script.js"></script>
+</body>
+</html>
